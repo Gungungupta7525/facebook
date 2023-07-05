@@ -713,11 +713,24 @@ font-size: 9px;
     .profile-intro{
         flex-wrap: wrap;
         margin-right: 0;
+        margin-left: 0;
+    }
+    .title-box{
+        flex-basis: 100%;
     }
     .profile-info{
         flex-wrap: wrap;
+        
+    }
+    .info-col{
+        flex-basis: 100%;
+    }
+    .post-col{
+        flex-basis: 100%;
     }
     .info-col .post-col{
         flex-basis: 100%;
+        margin-right: 0;
+        margin-left: 0;
     }
 }
